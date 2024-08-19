@@ -1,0 +1,65 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to bottom, #f8f5ed, #eae4d9);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.canvas-puzzle{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.puzzle-case{
+  background-color: #f2ede6;
+  border: 2px solid #d9d2c5;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#canvas{
+  border: black 2px solid;
+} 
+
+.title-in-game{
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+#template{
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+}
+
+.puzzle-number{
+  text-align: start;
+}
+
+.settings-div{
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  padding: 10px 20px;
+  background-color: #999;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  border: none;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #777;
+}
+
+
+.button-reset {
+  display: none;
+}
